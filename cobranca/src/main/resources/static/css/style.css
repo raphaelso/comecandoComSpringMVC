@@ -11,3 +11,11 @@
 	margin-left: 10px;
 	margin-rigth: 10px;
 }
+
+.rb-link-panel {
+	float: right;
+}
+
+.rb-titulo-panel {
+	float: left;
+}
