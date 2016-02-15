@@ -5,7 +5,8 @@
  
 	<div class="modal fade" id="confirmacaoExclusaoModal" tabindex="-1" data-keyboard="false" data-backdrop="static">
 		<div class="modal-dialog">
-			<form th:attr="data-url-base='@{/titulos}'" method="POST"> <!-- th:action="@{/titulos}" -->
+		<!-- th:attr="data-url-base='@{/titulos}'" -->
+			<form th:action="@{/titulos}" method="POST"> <!-- th:action="@{/titulos}" -->
 				<input type="hidden" name="_method" value="DELETE"/>
 				
 				<div class="modal-content">
